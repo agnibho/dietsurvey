@@ -1,17 +1,17 @@
 =============
-Anagram 1.0.0
+Diet-Survey 1.0.0
 =============
 
 General Usage Notes
 -------------------
--Anagram finds angram for a given word
--Multiworded search may take a long time to complete and may be resource consuming
--Grammatical filtering for multiworded search is not yet available
--No installaion is required, just double click the downloaded .jar file to launch Anagram
+-Diet-Survey performs nutritional assessment of a family based on 24 hours recall of food intake
+-It is possible to create custom list of food items
+-References are available where applicable
+-No installaion is required, just double click the downloaded .jar file to launch Diet-Survey
 
 Program Notes
 -------------
--Anagram is programmed in Java SE
+-Diet-Survey is programmed in Java SE 7
 -The source code is available at http://code.agnibho.com/dietsurvey
 
 Contact Information
@@ -22,19 +22,20 @@ www.agnibho.com
 
 Copyright Information
 ---------------------
-Anagram- Find anagrams of a word
+Diet-Survey: Perform diet survey based on 24 hours recall
 Copyright (C) 2013  Agnibho Mondal
 
-This file is part of Anagram.
-Anagram is free software: you can redistribute it and/or modify
+This file is part of Diet-Survey.
+
+Diet-Survey is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-Anagram is distributed in the hope that it will be useful,
+Diet-Survey is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with Anagram.  If not, see <http://www.gnu.org/licenses/>.
+along with Diet-Survey.  If not, see <http://www.gnu.org/licenses/>.
