@@ -1,0 +1,111 @@
+h1 {
+background:green;
+color:white;
+text-align:center;
+text-shadow:2px 2px grey;
+font-size:72px;
+border:5px ridge red;
+}
+h2 {
+color:red;
+text-align:center;
+text-shadow:1px 1px grey;
+font-size:48px;
+border:3px ridge green;
+}
+h3{
+color:green;
+text-align:center;
+text-shadow:1px 1px grey;
+font-size:36px;
+border:2px ridge red;
+}
+h5 {
+color:green;
+text-align:center;
+font-size:18px;
+}
+p {
+color:blue;
+text-align:center;
+font-size:24px;
+}
+table {
+border-collapse:collapse;
+border: 2px solid black;
+width: 600px;
+margin-left:auto;
+margin-right:auto;
+}
+table.paired{
+border:none;
+}
+table.sum{
+border:2px ridge orchid;
+}
+caption {
+font-size:28px;
+color:purple;
+text-shadow:1px 1px grey;
+}
+caption.sum{
+background:orchid;
+color:white;
+font-size:36px;
+}
+th, td {
+border: 1px solid black;
+height: 50px;
+text-align:center;
+color:navy;
+}
+th{
+background-color:green;
+color: white;
+}
+td.marked{
+font-weight:bold;
+color:purple;
+}
+td.key{
+border:none;
+text-align:left;
+font-size: 22px;
+font-weight:bold;
+}
+td.value{
+border:none;
+text-align:left;
+font-size: 22px
+}
+td.excess, td.deficient{
+padding-left:20px;
+border:none;
+text-align:left;
+color:white;
+font-size:24px;
+}
+td.excess {
+background:ForestGreen;
+}
+td.deficient{
+background:tomato;
+}
+ul , ol{
+width:600px;
+margin-left:auto;
+margin-right:auto;
+}
+li {
+color:blue;
+text-align:leading;
+font-size:24px;
+}
+img{
+width:600px;
+display:block;
+margin-left:auto;
+margin-right:auto;
+margin-top:50px;
+border:2px ridge indigo;
+}

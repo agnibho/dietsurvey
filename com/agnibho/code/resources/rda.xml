@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rda xmlns="http://hobbyware.wordpress.com/DietSurvey">
+	<energy>
+		<infant>
+			<age lower="0" upper="6">500</age>
+			<age lower="6" upper="12">670</age>
+		</infant>
+		<male>
+			<age lower="1" upper="3">1060</age>
+			<age lower="4" upper="6">1350</age>
+			<age lower="7" upper="9">1690</age>
+			<age lower="10" upper="12">2190</age>
+			<age lower="13" upper="15">2750</age>
+			<age lower="16" upper="17">3020</age>
+			<age lower="18">
+				<sedentary>2320</sedentary>
+				<moderate>2730</moderate>
+				<heavy>3490</heavy>
+			</age>
+		</male>
+		<female>
+			<age lower="1" upper="3">1060</age>
+			<age lower="4" upper="6">1350</age>
+			<age lower="7" upper="9">1690</age>
+			<age lower="10" upper="12">2010</age>
+			<age lower="13" upper="15">2330</age>
+			<age lower="16" upper="17">2440</age>
+			<age lower="18">
+				<sedentary>1900</sedentary>
+				<moderate>2230</moderate>
+				<heavy>2850</heavy>
+			</age>
+			<pregnantExtra>350</pregnantExtra>
+			<lactatingExtra>
+				<below6m>600</below6m>
+				<above6m>520</above6m>
+			</lactatingExtra>
+		</female>
+	</energy>
+	<protein>
+		<infant>
+			<age lower="0" upper="6">0</age>
+			<age lower="6" upper="9">13.4</age>
+			<age lower="9" upper="12">14.9</age>
+		</infant>
+		<male>
+			<age lower="1" upper="2">15.1</age>
+			<age lower="2" upper="3">16.0</age>
+			<age lower="3" upper="4">17.2</age>
+			<age lower="4" upper="5">18.3</age>
+			<age lower="5" upper="6">19.8</age>
+			<age lower="6" upper="7">23.5</age>
+			<age lower="7" upper="8">26.6</age>
+			<age lower="8" upper="9">29.7</age>
+			<age lower="9" upper="10">33.0</age>
+			<age lower="10" upper="11">36.3</age>
+			<age lower="11" upper="12">39.6</age>
+			<age lower="12" upper="13">43.7</age>
+			<age lower="13" upper="14">49.8</age>
+			<age lower="14" upper="15">54.7</age>
+			<age lower="15" upper="16">58.2</age>
+			<age lower="16" upper="17">60.8</age>
+			<age lower="17" upper="18">62.2</age>
+			<age lower="18">60</age>
+		</male>
+		<female>
+			<age lower="1" upper="2">14.1</age>
+			<age lower="2" upper="3">15.1</age>
+			<age lower="3" upper="4">16.8</age>
+			<age lower="4" upper="5">17.8</age>
+			<age lower="5" upper="6">19.3</age>
+			<age lower="6" upper="7">23.0</age>
+			<age lower="7" upper="8">26.1</age>
+			<age lower="8" upper="9">29.5</age>
+			<age lower="9" upper="10">32.6</age>
+			<age lower="10" upper="11">36.8</age>
+			<age lower="11" upper="12">40.0</age>
+			<age lower="12" upper="13">44.5</age>
+			<age lower="13" upper="14">49.0</age>
+			<age lower="14" upper="15">52.8</age>
+			<age lower="15" upper="16">53.8</age>
+			<age lower="16" upper="17">54.9</age>
+			<age lower="17" upper="18">56.0</age>
+			<age lower="18">55</age>
+			<pregnant>78</pregnant>
+			<lactatingBelow6m>74</lactatingBelow6m>
+			<lactatingAbove6m>68</lactatingAbove6m>
+		</female>
+	</protein>
+	<iron>
+		<infant>
+			<age lower="0" upper="6">0</age>
+			<age lower="6" upper="12">5</age>
+		</infant>
+		<male>
+			<age lower="1" upper="3">9</age>
+			<age lower="4" upper="6">13</age>
+			<age lower="7" upper="9">16</age>
+			<age lower="10" upper="12">21</age>
+			<age lower="13" upper="15">32</age>
+			<age lower="16" upper="17">28</age>
+			<age lower="18">17</age>
+		</male>
+		<female>
+			<age lower="1" upper="3">9</age>
+			<age lower="4" upper="6">13</age>
+			<age lower="7" upper="9">16</age>
+			<age lower="10" upper="12">27</age>
+			<age lower="13" upper="15">27</age>
+			<age lower="16" upper="17">26</age>
+			<age lower="18">21</age>
+			<pregnant>35</pregnant>
+			<lactatingBelow6m>25</lactatingBelow6m>
+			<lactatingAbove6m>21</lactatingAbove6m>
+		</female>
+	</iron>
+	<vitA>
+		<infant>
+			<age lower="0" upper="6">0</age>
+			<age lower="6" upper="12">2100</age>
+		</infant>
+		<male>
+			<age lower="1" upper="6">3200</age>
+			<age lower="7" upper="9">4800</age>
+			<age lower="10" upper="17">4800</age>
+			<age lower="18">4800</age>
+		</male>
+		<female>
+			<age lower="1" upper="6">3200</age>
+			<age lower="7" upper="9">4800</age>
+			<age lower="10" upper="17">4800</age>
+			<age lower="18">4800</age>
+			<pregnant>6400</pregnant>
+			<lactatingBelow6m>7600</lactatingBelow6m>
+			<lactatingAbove6m>7600</lactatingAbove6m>
+		</female>
+	</vitA>
+	<thiamine>
+		<infant>
+			<age lower="0" upper="6">0.2</age>
+			<age lower="6" upper="12">0.3</age>
+		</infant>
+		<male>
+			<age lower="1" upper="3">0.5</age>
+			<age lower="4" upper="6">0.7</age>
+			<age lower="7" upper="9">0.8</age>
+			<age lower="10" upper="12">1.1</age>
+			<age lower="13" upper="15">1.4</age>
+			<age lower="16" upper="17">1.5</age>
+			<age lower="18">
+				<sedentary>1.2</sedentary>
+				<moderate>1.4</moderate>
+				<heavy>1.7</heavy>
+			</age>
+		</male>
+		<female>
+			<age lower="1" upper="3">0.5</age>
+			<age lower="4" upper="6">0.7</age>
+			<age lower="7" upper="9">0.8</age>
+			<age lower="10" upper="12">1.0</age>
+			<age lower="13" upper="15">1.2</age>
+			<age lower="16" upper="17">1.0</age>
+			<age lower="18">
+				<sedentary>1</sedentary>
+				<moderate>1.1</moderate>
+				<heavy>1.4</heavy>
+			</age>
+			<pregnantExtra>0.2</pregnantExtra>
+			<lactatingExtra>
+				<below6m>0.3</below6m>
+				<above6m>0.2</above6m>
+			</lactatingExtra>
+		</female>
+	</thiamine>
+	<riboflavin>
+		<infant>
+			<age lower="0" upper="6">0.3</age>
+			<age lower="6" upper="12">0.4</age>
+		</infant>
+		<male>
+			<age lower="1" upper="3">0.6</age>
+			<age lower="4" upper="6">0.8</age>
+			<age lower="7" upper="9">1.0</age>
+			<age lower="10" upper="12">1.3</age>
+			<age lower="13" upper="15">1.6</age>
+			<age lower="16" upper="17">1.8</age>
+			<age lower="18">
+				<sedentary>1.4</sedentary>
+				<moderate>1.6</moderate>
+				<heavy>2.1</heavy>
+			</age>
+		</male>
+		<female>
+			<age lower="1" upper="3">0.6</age>
+			<age lower="4" upper="6">0.8</age>
+			<age lower="7" upper="9">1.0</age>
+			<age lower="10" upper="12">1.2</age>
+			<age lower="13" upper="15">1.4</age>
+			<age lower="16" upper="17">1.2</age>
+			<age lower="18">
+				<sedentary>1.1</sedentary>
+				<moderate>1.3</moderate>
+				<heavy>1.7</heavy>
+			</age>
+			<pregnantExtra>0.3</pregnantExtra>
+			<lactatingExtra>
+				<below6m>0.4</below6m>
+				<above6m>0.3</above6m>
+			</lactatingExtra>
+		</female>
+	</riboflavin>
+	<vitC>
+		<infant>
+			<age lower="0" upper="6">25</age>
+			<age lower="7" upper="12">25</age>
+		</infant>
+		<male>
+			<age lower="1" upper="3">40</age>
+			<age lower="4" upper="6">40</age>
+			<age lower="7" upper="9">40</age>
+			<age lower="10" upper="12">40</age>
+			<age lower="13" upper="15">40</age>
+			<age lower="16" upper="17">40</age>
+			<age lower="18">40</age>
+		</male>
+		<female>
+			<age lower="1" upper="3">40</age>
+			<age lower="4" upper="6">40</age>
+			<age lower="7" upper="9">40</age>
+			<age lower="10" upper="12">40</age>
+			<age lower="13" upper="15">40</age>
+			<age lower="16" upper="17">40</age>
+			<age lower="18">40</age>
+			<pregnant>60</pregnant>
+			<lactatingBelow6m>80</lactatingBelow6m>
+			<lactatingAbove6m>80</lactatingAbove6m>
+		</female>
+	</vitC>
+</rda>
