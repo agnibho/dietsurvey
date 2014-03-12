@@ -12,7 +12,7 @@ General Usage Notes
 Program Notes
 -------------
 -Diet-Survey is programmed in Java SE 7
--The source code is available at http://code.agnibho.com/dietsurvey
+-The source code is available at https://github.com/agnibho/dietsurvey
 
 Contact Information
 -------------------
