@@ -31,7 +31,7 @@ You need to enter some health information about the family members and
 the list and amount of food they have consumed in the last 24 hours.
 
 A hosted version of Diet-Survey is available at
-http://dietsurvey.agnibho.com/
+http://app.agnibho.com/dietsurvey/
 
 Licensing
 ---------
