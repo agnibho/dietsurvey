@@ -1,0 +1,415 @@
+[{
+    "subject": "infant_0m-6m",
+    "energy": "500.00",
+    "protein": "0.00",
+    "iron": "0.00",
+    "vitA": "0.00",
+    "thiamine": "0.20",
+    "riboflavin": "0.30",
+    "vitC": "25.00"
+}, {
+    "subject": "infant_6m-9m",
+    "energy": "670.00",
+    "protein": "13.40",
+    "iron": "5.00",
+    "vitA": "2100.00",
+    "thiamine": "0.30",
+    "riboflavin": "0.40",
+    "vitC": "25.00"
+}, {
+    "subject": "infant_9m-12m",
+    "energy": "670.00",
+    "protein": "14.90",
+    "iron": "5.00",
+    "vitA": "2100.00",
+    "thiamine": "0.30",
+    "riboflavin": "0.40",
+    "vitC": "25.00"
+}, {
+    "subject": "male_1y",
+    "energy": "1060.00",
+    "protein": "15.10",
+    "iron": "9.00",
+    "vitA": "3200.00",
+    "thiamine": "0.50",
+    "riboflavin": "0.60",
+    "vitC": "40.00"
+}, {
+    "subject": "male_2y",
+    "energy": "1060.00",
+    "protein": "16.00",
+    "iron": "9.00",
+    "vitA": "3200.00",
+    "thiamine": "0.50",
+    "riboflavin": "0.60",
+    "vitC": "40.00"
+}, {
+    "subject": "male_3y",
+    "energy": "1060.00",
+    "protein": "17.20",
+    "iron": "9.00",
+    "vitA": "3200.00",
+    "thiamine": "0.50",
+    "riboflavin": "0.60",
+    "vitC": "40.00"
+}, {
+    "subject": "male_4y",
+    "energy": "1350.00",
+    "protein": "18.30",
+    "iron": "13.00",
+    "vitA": "3200.00",
+    "thiamine": "0.70",
+    "riboflavin": "0.80",
+    "vitC": "40.00"
+}, {
+    "subject": "male_5y",
+    "energy": "1350.00",
+    "protein": "19.80",
+    "iron": "13.00",
+    "vitA": "3200.00",
+    "thiamine": "0.70",
+    "riboflavin": "0.80",
+    "vitC": "40.00"
+}, {
+    "subject": "male_6y",
+    "energy": "1350.00",
+    "protein": "23.50",
+    "iron": "13.00",
+    "vitA": "3200.00",
+    "thiamine": "0.70",
+    "riboflavin": "0.80",
+    "vitC": "40.00"
+}, {
+    "subject": "male_7y",
+    "energy": "1690.00",
+    "protein": "26.60",
+    "iron": "16.00",
+    "vitA": "4800.00",
+    "thiamine": "0.80",
+    "riboflavin": "1.00",
+    "vitC": "40.00"
+}, {
+    "subject": "male_8y",
+    "energy": "1690.00",
+    "protein": "29.70",
+    "iron": "16.00",
+    "vitA": "4800.00",
+    "thiamine": "0.80",
+    "riboflavin": "1.00",
+    "vitC": "40.00"
+}, {
+    "subject": "male_9y",
+    "energy": "1690.00",
+    "protein": "33.00",
+    "iron": "16.00",
+    "vitA": "4800.00",
+    "thiamine": "0.80",
+    "riboflavin": "1.00",
+    "vitC": "40.00"
+}, {
+    "subject": "male_10y",
+    "energy": "2190.00",
+    "protein": "36.30",
+    "iron": "21.00",
+    "vitA": "4800.00",
+    "thiamine": "1.10",
+    "riboflavin": "1.30",
+    "vitC": "40.00"
+}, {
+    "subject": "male_11y",
+    "energy": "2190.00",
+    "protein": "39.60",
+    "iron": "21.00",
+    "vitA": "4800.00",
+    "thiamine": "1.10",
+    "riboflavin": "1.30",
+    "vitC": "40.00"
+}, {
+    "subject": "male_12y",
+    "energy": "2190.00",
+    "protein": "43.70",
+    "iron": "21.00",
+    "vitA": "4800.00",
+    "thiamine": "1.10",
+    "riboflavin": "1.30",
+    "vitC": "40.00"
+}, {
+    "subject": "male_13y",
+    "energy": "2750.00",
+    "protein": "49.80",
+    "iron": "32.00",
+    "vitA": "4800.00",
+    "thiamine": "1.40",
+    "riboflavin": "1.60",
+    "vitC": "40.00"
+}, {
+    "subject": "male_14y",
+    "energy": "2750.00",
+    "protein": "54.70",
+    "iron": "32.00",
+    "vitA": "4800.00",
+    "thiamine": "1.40",
+    "riboflavin": "1.60",
+    "vitC": "40.00"
+}, {
+    "subject": "male_15y",
+    "energy": "2750.00",
+    "protein": "58.20",
+    "iron": "32.00",
+    "vitA": "4800.00",
+    "thiamine": "1.40",
+    "riboflavin": "1.60",
+    "vitC": "40.00"
+}, {
+    "subject": "male_16y",
+    "energy": "3020.00",
+    "protein": "60.80",
+    "iron": "28.00",
+    "vitA": "4800.00",
+    "thiamine": "1.50",
+    "riboflavin": "1.80",
+    "vitC": "40.00"
+}, {
+    "subject": "male_17y",
+    "energy": "3020.00",
+    "protein": "62.20",
+    "iron": "28.00",
+    "vitA": "4800.00",
+    "thiamine": "1.50",
+    "riboflavin": "1.80",
+    "vitC": "40.00"
+}, {
+    "subject": "female_1y",
+    "energy": "1060.00",
+    "protein": "14.10",
+    "iron": "9.00",
+    "vitA": "3200.00",
+    "thiamine": "0.50",
+    "riboflavin": "0.30",
+    "vitC": "40.00"
+}, {
+    "subject": "female_2y",
+    "energy": "1060.00",
+    "protein": "15.10",
+    "iron": "9.00",
+    "vitA": "3200.00",
+    "thiamine": "0.50",
+    "riboflavin": "0.30",
+    "vitC": "40.00"
+}, {
+    "subject": "female_3y",
+    "energy": "1060.00",
+    "protein": "16.80",
+    "iron": "9.00",
+    "vitA": "3200.00",
+    "thiamine": "0.50",
+    "riboflavin": "0.30",
+    "vitC": "40.00"
+}, {
+    "subject": "female_4y",
+    "energy": "1350.00",
+    "protein": "17.80",
+    "iron": "13.00",
+    "vitA": "3200.00",
+    "thiamine": "0.70",
+    "riboflavin": "0.80",
+    "vitC": "40.00"
+}, {
+    "subject": "female_5y",
+    "energy": "1350.00",
+    "protein": "19.30",
+    "iron": "13.00",
+    "vitA": "3200.00",
+    "thiamine": "0.70",
+    "riboflavin": "0.80",
+    "vitC": "40.00"
+}, {
+    "subject": "female_6y",
+    "energy": "1350.00",
+    "protein": "23.00",
+    "iron": "13.00",
+    "vitA": "3200.00",
+    "thiamine": "0.70",
+    "riboflavin": "0.80",
+    "vitC": "40.00"
+}, {
+    "subject": "female_7y",
+    "energy": "1690.00",
+    "protein": "26.10",
+    "iron": "16.00",
+    "vitA": "4800.00",
+    "thiamine": "0.80",
+    "riboflavin": "1.00",
+    "vitC": "40.00"
+}, {
+    "subject": "female_8y",
+    "energy": "1690.00",
+    "protein": "29.50",
+    "iron": "16.00",
+    "vitA": "4800.00",
+    "thiamine": "0.80",
+    "riboflavin": "1.00",
+    "vitC": "40.00"
+}, {
+    "subject": "female_9y",
+    "energy": "1690.00",
+    "protein": "32.60",
+    "iron": "16.00",
+    "vitA": "4800.00",
+    "thiamine": "0.80",
+    "riboflavin": "1.00",
+    "vitC": "40.00"
+}, {
+    "subject": "female_10y",
+    "energy": "2010.00",
+    "protein": "36.80",
+    "iron": "27.00",
+    "vitA": "4800.00",
+    "thiamine": "1.00",
+    "riboflavin": "1.20",
+    "vitC": "40.00"
+}, {
+    "subject": "female_11y",
+    "energy": "2010.00",
+    "protein": "40.00",
+    "iron": "27.00",
+    "vitA": "4800.00",
+    "thiamine": "1.00",
+    "riboflavin": "1.20",
+    "vitC": "40.00"
+}, {
+    "subject": "female_12y",
+    "energy": "2010.00",
+    "protein": "44.50",
+    "iron": "27.00",
+    "vitA": "4800.00",
+    "thiamine": "1.00",
+    "riboflavin": "1.20",
+    "vitC": "40.00"
+}, {
+    "subject": "female_13y",
+    "energy": "2330.00",
+    "protein": "49.00",
+    "iron": "27.00",
+    "vitA": "4800.00",
+    "thiamine": "1.20",
+    "riboflavin": "1.40",
+    "vitC": "40.00"
+}, {
+    "subject": "female_14y",
+    "energy": "2330.00",
+    "protein": "52.80",
+    "iron": "27.00",
+    "vitA": "4800.00",
+    "thiamine": "1.20",
+    "riboflavin": "1.40",
+    "vitC": "40.00"
+}, {
+    "subject": "female_15y",
+    "energy": "2330.00",
+    "protein": "53.80",
+    "iron": "27.00",
+    "vitA": "4800.00",
+    "thiamine": "1.20",
+    "riboflavin": "1.40",
+    "vitC": "40.00"
+}, {
+    "subject": "female_16y",
+    "energy": "2440.00",
+    "protein": "54.90",
+    "iron": "26.00",
+    "vitA": "4800.00",
+    "thiamine": "1.00",
+    "riboflavin": "1.20",
+    "vitC": "40.00"
+}, {
+    "subject": "female_17y",
+    "energy": "2440.00",
+    "protein": "56.00",
+    "iron": "26.00",
+    "vitA": "4800.00",
+    "thiamine": "1.00",
+    "riboflavin": "1.20",
+    "vitC": "40.00"
+}, {
+    "subject": "male_sedentary",
+    "energy": "2320.00",
+    "protein": "60.00",
+    "iron": "17.00",
+    "vitA": "4800.00",
+    "thiamine": "1.20",
+    "riboflavin": "1.40",
+    "vitC": "40.00"
+}, {
+    "subject": "male_moderate",
+    "energy": "2730.00",
+    "protein": "60.00",
+    "iron": "17.00",
+    "vitA": "4800.00",
+    "thiamine": "1.40",
+    "riboflavin": "1.60",
+    "vitC": "40.00"
+}, {
+    "subject": "male_heavy",
+    "energy": "3490.00",
+    "protein": "60.00",
+    "iron": "17.00",
+    "vitA": "4800.00",
+    "thiamine": "1.70",
+    "riboflavin": "2.10",
+    "vitC": "40.00"
+}, {
+    "subject": "female_sedentary",
+    "energy": "1900.00",
+    "protein": "55.00",
+    "iron": "21.00",
+    "vitA": "4800.00",
+    "thiamine": "1.00",
+    "riboflavin": "1.10",
+    "vitC": "40.00"
+}, {
+    "subject": "female_moderate",
+    "energy": "2230.00",
+    "protein": "55.00",
+    "iron": "21.00",
+    "vitA": "4800.00",
+    "thiamine": "1.10",
+    "riboflavin": "1.30",
+    "vitC": "40.00"
+}, {
+    "subject": "female_heavy",
+    "energy": "2850.00",
+    "protein": "55.00",
+    "iron": "21.00",
+    "vitA": "4800.00",
+    "thiamine": "1.40",
+    "riboflavin": "1.70",
+    "vitC": "40.00"
+}, {
+    "subject": "pregnant",
+    "energy": "350.00",
+    "protein": "78.00",
+    "iron": "35.00",
+    "vitA": "6400.00",
+    "thiamine": "0.20",
+    "riboflavin": "0.30",
+    "vitC": "60.00"
+}, {
+    "subject": "lactating_below6",
+    "energy": "600.00",
+    "protein": "74.00",
+    "iron": "25.00",
+    "vitA": "7600.00",
+    "thiamine": "0.30",
+    "riboflavin": "0.40",
+    "vitC": "80.00"
+}, {
+    "subject": "lactating_above6",
+    "energy": "520.00",
+    "protein": "68.00",
+    "iron": "21.00",
+    "vitA": "7600.00",
+    "thiamine": "0.20",
+    "riboflavin": "0.30",
+    "vitC": "80.00"
+}]
