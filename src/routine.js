@@ -23,6 +23,8 @@
    along with DietSurvey. If not, see <http://www.gnu.org/licenses/>.
  **********************************************************************/
 
+$.ajaxSetup({cache:false});
+
 $(document).ready(function(){
 
   //Remove loader
@@ -31,6 +33,9 @@ $(document).ready(function(){
 
   //Insert version code
   $(".version").text(VERSION);
+  try{
+    $(".data-ver").text(JSON.parse(localStorage.getItem(STORAGE)).version);
+  } catch(e){}
 
   //Update copyright
   $(".copyright").each(function(){
@@ -71,6 +76,16 @@ $(document).ready(function(){
     }
   });
 
+  //Use custom datepicker if Firefox
+  if($(".datepicker").length && navigator.userAgent.indexOf("Firefox")!=-1){
+    $(".datepicker").datepicker({
+      format:"yyyy-mm-dd",
+      autoclose:true
+    }).on("changeDate", function(){
+      this.dispatchEvent(new Event("input"));
+    });
+  }
+
   //Notifications
   $(window).resize(function(){
     $("#notify").width($(".container").width()-20);
@@ -78,9 +93,11 @@ $(document).ready(function(){
   $(window).scroll(function(){
     $("#notify").width($(".container").width()-20);
   });
-  $.get("https://code.agnibho.com/dietsurvey/info.json", function(data){
+  //Get data from server
+  $.get(INFO_URL, function(data){
     var vCurr=VERSION.split(".").map(Number);
     var vLtst=data.latest.split(".").map(Number);
+    //Define version comparator
     function isBiggerThan(v1, v2){
       while(v1.length<v2.length){
         v1.push(0);
@@ -95,10 +112,11 @@ $(document).ready(function(){
       }
       return false;
     }
-    if(isBiggerThan(data.latest, VERSION)){
+    //Compare versions
+    if(NOTIFY && isBiggerThan(data.latest, VERSION)){
       $("#notify").slideDown();
       $("#notify").width($(".container").width()-20);
-      $("#notify-text").text("A new version of DietSurvey is available.");
+      $("#notify-text").text("A new version of "+NAME+" is available.");
       if(document.URL.indexOf("http://")==-1 && document.URL.indexOf("https://")==-1){
         if(/(android)/i.test(navigator.userAgent)){
           $("#notify-link").attr("href", data.apk);
@@ -114,10 +132,11 @@ $(document).ready(function(){
         $("#notify-link").text("Load");
       }
     }
+    //Update app data
     try{
-      if(data.data.latest>JSON.parse(localStorage.getItem("dietsurvey_data")).version){
+      if(data.data.latest>JSON.parse(localStorage.getItem(STORAGE)).version){
         $.get(data.data.src, function(d){
-          localStorage.setItem("dietsurvey_data", JSON.stringify(d));
+          localStorage.setItem(STORAGE, JSON.stringify(d));
         });
       }
     }

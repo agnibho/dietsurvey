@@ -53,19 +53,19 @@ new Vue({
   data: {dataObj: {family: [], food: []}, dataRef: false},
   created:function(){
     try{
-      var loc=JSON.parse(localStorage.getItem("dietsurvey_data"));
+      var loc=JSON.parse(localStorage.getItem(STORAGE));
       if(loc.version>data.version){
         this.dataRef=loc;
       }
       else{
         this.dataRef=data;
-        localStorage.setItem("dietsurvey_data", JSON.stringify(data));
+        localStorage.setItem(STORAGE, JSON.stringify(data));
       }
     }
     catch(e){
       if(!this.dataRef){
         this.dataRef=data;
-        localStorage.setItem("dietsurvey_data", JSON.stringify(data));
+        localStorage.setItem(STORAGE, JSON.stringify(data));
       }
     }
   }

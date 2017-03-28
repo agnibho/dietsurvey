@@ -32,7 +32,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script>
+var NAME="DietSurvey";
 var VERSION="3.0.0";
+var STORAGE="dietsurvey_data";
+var INFO_URL="https://code.agnibho.com/dietsurvey/info.json";
+var NOTIFY=true;
     </script>
     <style>
 .loader {
@@ -49,10 +53,10 @@ var VERSION="3.0.0";
   animation: spin 2s linear infinite;
 }
 
-           @keyframes spin {
-             0% { transform: rotate(0deg); }
-             100% { transform: rotate(360deg); }
-           }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
     </style>
 
   </head>
