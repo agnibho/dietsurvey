@@ -33,10 +33,11 @@
           <div class="panel-title"><h3>Nutritional Requirements</h3></div>
         </div>
         <div class="panel-body">
-          <table class="table">
-            <thead>
-              <tr><th>Member</th><th>Energy</th><th>Protein</th><th>Iron</th><th>Vitamin A</th><th>Thiamine</th><th>Riboflavin</th><th>Vitamin C</th></tr>
-            </thead>
+          <div class="table-responsive">
+            <table class="table">
+              <thead>
+                <tr><th>Member</th><th>Energy</th><th>Protein</th><th>Iron</th><th>Vitamin A</th><th>Thiamine</th><th>Riboflavin</th><th>Vitamin C</th></tr>
+              </thead>
               <tbody>
                 <tr v-for="i in calcVal.req.list">
                   <td>{{i.name}}</td><td>{{i.energy|dec2}}</td><td>{{i.protein|dec2}}</td><td>{{i.iron|dec2}}</td><td>{{i.vitA|dec2}}</td><td>{{i.thiamine|dec2}}</td><td>{{i.riboflavin|dec2}}</td><td>{{i.vitC|dec2}}</td>
@@ -45,7 +46,8 @@
               <thead>
                 <tr><th>Total</th><th>{{calcVal.req.total.energy|dec2}}</th><th>{{calcVal.req.total.protein|dec2}}</th><th>{{calcVal.req.total.iron|dec2}}</th><th>{{calcVal.req.total.vitA|dec2}}</th><th>{{calcVal.req.total.thiamine|dec2}}</th><th>{{calcVal.req.total.riboflavin|dec2}}</th><th>{{calcVal.req.total.vitC|dec2}}</th></tr>
               </thead>
-          </table>
+            </table>
+          </div>
         </div>
       </div>
       <!-- Consumption -->
@@ -54,10 +56,11 @@
           <div class="panel-title"><h3>Nutritional Value of Consumed Foods</h3></div>
         </div>
         <div class="panel-body">
-          <table class="table">
-            <thead>
-              <tr><th>Food</th><th>Energy</th><th>Protein</th><th>Iron</th><th>Vitamin A</th><th>Thiamine</th><th>Riboflavin</th><th>Vitamin C</th></tr>
-            </thead>
+          <div class="table-responsive">
+            <table class="table">
+              <thead>
+                <tr><th>Food</th><th>Energy</th><th>Protein</th><th>Iron</th><th>Vitamin A</th><th>Thiamine</th><th>Riboflavin</th><th>Vitamin C</th></tr>
+              </thead>
               <tbody>
                 <tr v-for="i in calcVal.intk.list">
                   <td>{{i.name}}</td><td>{{i.energy|dec2}}</td><td>{{i.protein|dec2}}</td><td>{{i.iron|dec2}}</td><td>{{i.vitA|dec2}}</td><td>{{i.thiamine|dec2}}</td><td>{{i.riboflavin|dec2}}</td><td>{{i.vitC|dec2}}</td>
@@ -66,7 +69,8 @@
               <thead>
                 <tr><th>Total</th><th>{{calcVal.intk.total.energy|dec2}}</th><th>{{calcVal.intk.total.protein|dec2}}</th><th>{{calcVal.intk.total.iron|dec2}}</th><th>{{calcVal.intk.total.vitA|dec2}}</th><th>{{calcVal.intk.total.thiamine|dec2}}</th><th>{{calcVal.intk.total.riboflavin|dec2}}</th><th>{{calcVal.intk.total.vitC|dec2}}</th></tr>
               </thead>
-          </table>
+            </table>
+          </div>
         </div>
       </div>
       <!-- Comparison -->
@@ -75,17 +79,20 @@
           <div class="panel-title"><h3>Requirement vs Intake Comparison</h3></div>
         </div>
         <div class="panel-body">
-          <table class="table">
-            <thead><tr><th>Nutrient</th><th>Total Requirement</th><th>Total Intake</th><th>Excess /Deficiency</th></tr></thead>
-            <tbody>
-              <tr><td>Energy</td><td>{{calcVal.req.total.energy|dec2}}</td><td>{{calcVal.intk.total.energy|dec2}}</td><td>{{calcVal.comp.energy[0]|cmp(2)}}</td></tr>
-              <tr><td>Protein</td><td>{{calcVal.req.total.protein|dec2}}</td><td>{{calcVal.intk.total.protein|dec2}}</td><td>{{calcVal.comp.protein[0]|cmp(2)}}</td></tr>
-              <tr><td>Iron</td><td>{{calcVal.req.total.iron|dec2}}</td><td>{{calcVal.intk.total.iron|dec2}}</td><td>{{calcVal.comp.iron[0]|cmp(2)}}</td></tr>
-              <tr><td>Vitamin A</td><td>{{calcVal.req.total.vitA|dec2}}</td><td>{{calcVal.intk.total.vitA|dec2}}</td><td>{{calcVal.comp.vitA[0]|cmp(2)}}</td></tr>
-              <tr><td>Thiamine</td><td>{{calcVal.req.total.thiamine|dec2}}</td><td>{{calcVal.intk.total.thiamine|dec2}}</td><td>{{calcVal.comp.thiamine[0]|cmp(2)}}</td></tr>
-              <tr><td>Riboflavin</td><td>{{calcVal.req.total.riboflavin|dec2}}</td><td>{{calcVal.intk.total.riboflavin|dec2}}</td><td>{{calcVal.comp.riboflavin[0]|cmp(2)}}</td></tr>
-              <tr><td>Vitamin C</td><td>{{calcVal.req.total.vitC|dec2}}</td><td>{{calcVal.intk.total.vitC|dec2}}</td><td>{{calcVal.comp.vitC[0]|cmp(2)}}</td></tr>
-            </tbody>
+          <div class="table-responsive">
+            <table class="table">
+              <thead><tr><th>Nutrient</th><th>Total Requirement</th><th>Total Intake</th><th>Excess /Deficiency</th></tr></thead>
+              <tbody>
+                <tr><td>Energy</td><td>{{calcVal.req.total.energy|dec2}}</td><td>{{calcVal.intk.total.energy|dec2}}</td><td>{{calcVal.comp.energy[0]|cmp(2)}}</td></tr>
+                <tr><td>Protein</td><td>{{calcVal.req.total.protein|dec2}}</td><td>{{calcVal.intk.total.protein|dec2}}</td><td>{{calcVal.comp.protein[0]|cmp(2)}}</td></tr>
+                <tr><td>Iron</td><td>{{calcVal.req.total.iron|dec2}}</td><td>{{calcVal.intk.total.iron|dec2}}</td><td>{{calcVal.comp.iron[0]|cmp(2)}}</td></tr>
+                <tr><td>Vitamin A</td><td>{{calcVal.req.total.vitA|dec2}}</td><td>{{calcVal.intk.total.vitA|dec2}}</td><td>{{calcVal.comp.vitA[0]|cmp(2)}}</td></tr>
+                <tr><td>Thiamine</td><td>{{calcVal.req.total.thiamine|dec2}}</td><td>{{calcVal.intk.total.thiamine|dec2}}</td><td>{{calcVal.comp.thiamine[0]|cmp(2)}}</td></tr>
+                <tr><td>Riboflavin</td><td>{{calcVal.req.total.riboflavin|dec2}}</td><td>{{calcVal.intk.total.riboflavin|dec2}}</td><td>{{calcVal.comp.riboflavin[0]|cmp(2)}}</td></tr>
+                <tr><td>Vitamin C</td><td>{{calcVal.req.total.vitC|dec2}}</td><td>{{calcVal.intk.total.vitC|dec2}}</td><td>{{calcVal.comp.vitC[0]|cmp(2)}}</td></tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
       <!-- Summary -->
